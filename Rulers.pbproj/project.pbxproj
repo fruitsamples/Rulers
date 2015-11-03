@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		0186160FFFB7A57311CA0CA4 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OPTIMIZATION_CFLAGS = "-O0";
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		01861610FFB7A57311CA0CA4 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//010
+//011
+//012
+//013
+//014
+//030
+//031
+//032
+//033
+//034
+		035E43A3FEEE2AEC7F000001 = {
+			buildStyles = (
+				0186160FFFB7A57311CA0CA4,
+				01861610FFB7A57311CA0CA4,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 035E43A4FEEE2AEC7F000001;
+			productRefGroup = 035E43A5FEEE2AEC7F000001;
+			projectDirPath = "";
+			targets = (
+				73D1B208049A51C300C919A3,
+			);
+		};
+		035E43A4FEEE2AEC7F000001 = {
+			children = (
+				035E43BFFEEE2AEC7F000001,
+				035E43A7FEEE2AEC7F000001,
+				035E43ABFEEE2AEC7F000001,
+				035E43AFFEEE2AEC7F000001,
+				035E43B1FEEE2AEC7F000001,
+				035E43B4FEEE2AEC7F000001,
+				035E43C0FEEE2AEC7F000001,
+				035E43A5FEEE2AEC7F000001,
+				73D1B21C049A51C300C919A3,
+			);
+			isa = PBXGroup;
+			name = Rulers;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		035E43A5FEEE2AEC7F000001 = {
+			children = (
+				73D1B21D049A51C300C919A3,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		035E43A7FEEE2AEC7F000001 = {
+			children = (
+				035E43A8FEEE2AEC7F000001,
+				035E43A9FEEE2AEC7F000001,
+				035E43AAFEEE2AEC7F000001,
+			);
+			isa = PBXGroup;
+			name = Classes;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		035E43A8FEEE2AEC7F000001 = {
+			expectedFileType = sourcecode.c.objc;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = RectsView.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		035E43A9FEEE2AEC7F000001 = {
+			expectedFileType = sourcecode.c.objc;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = ColorRect.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		035E43AAFEEE2AEC7F000001 = {
+			expectedFileType = sourcecode.c.objc;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = NestleView.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		035E43ABFEEE2AEC7F000001 = {
+			children = (
+				035E43ACFEEE2AEC7F000001,
+				035E43ADFEEE2AEC7F000001,
+				035E43AEFEEE2AEC7F000001,
+				73DEBF7F049A751100C919A3,
+			);
+			isa = PBXGroup;
+			name = Headers;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		035E43ACFEEE2AEC7F000001 = {
+			expectedFileType = sourcecode.c.h;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = RectsView.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		035E43ADFEEE2AEC7F000001 = {
+			expectedFileType = sourcecode.c.h;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = ColorRect.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		035E43AEFEEE2AEC7F000001 = {
+			expectedFileType = sourcecode.c.h;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = NestleView.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		035E43AFFEEE2AEC7F000001 = {
+			children = (
+				035E43B0FEEE2AEC7F000001,
+			);
+			isa = PBXGroup;
+			name = "Other Sources";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		035E43B0FEEE2AEC7F000001 = {
+			expectedFileType = sourcecode.c.objc;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = Rulers_main.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		035E43B1FEEE2AEC7F000001 = {
+			children = (
+				035E43B2FEEE2AEC7F000001,
+			);
+			isa = PBXGroup;
+			name = Interfaces;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		035E43B2FEEE2AEC7F000001 = {
+			children = (
+				035E43B3FEEE2AEC7F000001,
+			);
+			isa = PBXVariantGroup;
+			name = Rulers.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		035E43B3FEEE2AEC7F000001 = {
+			expectedFileType = wrapper.nib;
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/Rulers.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		035E43B4FEEE2AEC7F000001 = {
+			children = (
+				035E43B5FEEE2AEC7F000001,
+				035E43B6FEEE2AEC7F000001,
+				035E43B7FEEE2AEC7F000001,
+				035E43B8FEEE2AEC7F000001,
+			);
+			isa = PBXGroup;
+			name = Images;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		035E43B5FEEE2AEC7F000001 = {
+			expectedFileType = image.tiff;
+			isa = PBXFileReference;
+			path = EdgeMarkerLeft.tiff;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		035E43B6FEEE2AEC7F000001 = {
+			expectedFileType = image.tiff;
+			isa = PBXFileReference;
+			path = EdgeMarkerBottom.tiff;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		035E43B7FEEE2AEC7F000001 = {
+			expectedFileType = image.tiff;
+			isa = PBXFileReference;
+			path = EdgeMarkerTop.tiff;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		035E43B8FEEE2AEC7F000001 = {
+			expectedFileType = image.tiff;
+			isa = PBXFileReference;
+			path = EdgeMarkerRight.tiff;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		035E43BFFEEE2AEC7F000001 = {
+			expectedFileType = text.rtf;
+			isa = PBXFileReference;
+			path = README.rtf;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		035E43C0FEEE2AEC7F000001 = {
+			children = (
+				20C7502DFF68033211CA0C5D,
+				20C7502EFF68033211CA0C5D,
+			);
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		035E43C1FEEE2AEC7F000001 = {
+			expectedFileType = wrapper.framework;
+			fallbackIsa = PBXFileReference;
+			isa = PBXFrameworkReference;
+			name = AppKit.framework;
+			path = /System/Library/Frameworks/AppKit.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		035E43C2FEEE2AEC7F000001 = {
+			expectedFileType = wrapper.framework;
+			fallbackIsa = PBXFileReference;
+			isa = PBXFrameworkReference;
+			name = Foundation.framework;
+			path = /System/Library/Frameworks/Foundation.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+//030
+//031
+//032
+//033
+//034
+//200
+//201
+//202
+//203
+//204
+		20C7502DFF68033211CA0C5D = {
+			expectedFileType = wrapper.framework;
+			fallbackIsa = PBXFileReference;
+			isa = PBXFrameworkReference;
+			name = Cocoa.framework;
+			path = /System/Library/Frameworks/Cocoa.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		20C7502EFF68033211CA0C5D = {
+			children = (
+				035E43C2FEEE2AEC7F000001,
+				035E43C1FEEE2AEC7F000001,
+			);
+			isa = PBXGroup;
+			name = "Referenced (Non-linked)";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//200
+//201
+//202
+//203
+//204
+//730
+//731
+//732
+//733
+//734
+		734E636E049E6A9E00C919A3 = {
+			compilerSpec = com.apple.compilers.gcc.3_3;
+			fileType = sourcecode.c;
+			isEditable = 1;
+			isa = PBXBuildRule;
+			outputFiles = (
+			);
+		};
+		73D1B208049A51C300C919A3 = {
+			buildPhases = (
+				73D1B209049A51C300C919A3,
+				73D1B20D049A51C300C919A3,
+				73D1B213049A51C300C919A3,
+				73D1B218049A51C300C919A3,
+				73D1B21A049A51C300C919A3,
+			);
+			buildRules = (
+				734E636E049E6A9E00C919A3,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.h;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-Rulers__Upgraded_.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Demos";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Rulers;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = Rulers;
+			productInstallPath = "$(LOCAL_DEVELOPER_DIR)/Demos";
+			productName = Rulers;
+			productReference = 73D1B21D049A51C300C919A3;
+			productType = "com.apple.product-type.application";
+		};
+		73D1B209049A51C300C919A3 = {
+			buildActionMask = 2147483647;
+			files = (
+				73D1B20A049A51C300C919A3,
+				73D1B20B049A51C300C919A3,
+				73D1B20C049A51C300C919A3,
+				73DEBF80049A751100C919A3,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73D1B20A049A51C300C919A3 = {
+			fileRef = 035E43ACFEEE2AEC7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		73D1B20B049A51C300C919A3 = {
+			fileRef = 035E43ADFEEE2AEC7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		73D1B20C049A51C300C919A3 = {
+			fileRef = 035E43AEFEEE2AEC7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		73D1B20D049A51C300C919A3 = {
+			buildActionMask = 2147483647;
+			files = (
+				73D1B20E049A51C300C919A3,
+				73D1B20F049A51C300C919A3,
+				73D1B210049A51C300C919A3,
+				73D1B211049A51C300C919A3,
+				73D1B212049A51C300C919A3,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73D1B20E049A51C300C919A3 = {
+			fileRef = 035E43B2FEEE2AEC7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		73D1B20F049A51C300C919A3 = {
+			fileRef = 035E43B5FEEE2AEC7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		73D1B210049A51C300C919A3 = {
+			fileRef = 035E43B6FEEE2AEC7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		73D1B211049A51C300C919A3 = {
+			fileRef = 035E43B7FEEE2AEC7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		73D1B212049A51C300C919A3 = {
+			fileRef = 035E43B8FEEE2AEC7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		73D1B213049A51C300C919A3 = {
+			buildActionMask = 2147483647;
+			files = (
+				73D1B214049A51C300C919A3,
+				73D1B215049A51C300C919A3,
+				73D1B216049A51C300C919A3,
+				73D1B217049A51C300C919A3,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73D1B214049A51C300C919A3 = {
+			fileRef = 035E43A8FEEE2AEC7F000001;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		73D1B215049A51C300C919A3 = {
+			fileRef = 035E43A9FEEE2AEC7F000001;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		73D1B216049A51C300C919A3 = {
+			fileRef = 035E43AAFEEE2AEC7F000001;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		73D1B217049A51C300C919A3 = {
+			fileRef = 035E43B0FEEE2AEC7F000001;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		73D1B218049A51C300C919A3 = {
+			buildActionMask = 2147483647;
+			files = (
+				73D1B219049A51C300C919A3,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73D1B219049A51C300C919A3 = {
+			fileRef = 20C7502DFF68033211CA0C5D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		73D1B21A049A51C300C919A3 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73D1B21C049A51C300C919A3 = {
+			expectedFileType = text.plist;
+			isa = PBXFileReference;
+			path = "Info-Rulers__Upgraded_.plist";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		73D1B21D049A51C300C919A3 = {
+			expectedFileType = wrapper.application;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = Rulers.app;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		73DEBF7F049A751100C919A3 = {
+			expectedFileType = sourcecode.c.h;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = Prefix.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		73DEBF80049A751100C919A3 = {
+			fileRef = 73DEBF7F049A751100C919A3;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 035E43A3FEEE2AEC7F000001;
+}
